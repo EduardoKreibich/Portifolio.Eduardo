@@ -5,9 +5,14 @@ export const StyledContainer = styled.section`
   display: flex;
   flex-direction: row;
   justify-content:space-between;
-  flex-wrap: wrap;
-
   width: 100%;
+
+  @media (max-width: 913px) {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
 
     .name{
       font-size: 50px;

@@ -36,6 +36,16 @@ export const StyledContainer = styled.section`
             padding: 20px;
             font-family: monospace;
         }
-
     }
+
+    .iconsProject{
+        display: flex;
+        align-items: center;
+        
+    }
+`
+
+export const StyledButtonGithub = styled.img`
+    width: 30px;
+    margin-left: 10px;
 `
