@@ -6,10 +6,16 @@ export const StyledContainer = styled.section`
   justify-content: space-between;
   width: 100%;
 
-  @media (max-width: 913px) {
+  @media (max-width: 880px) {
+    flex-direction:column-reverse ;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+
+    .name{
+      margin-top: 35px;
+    }
+
   }
 
   .name {
@@ -20,7 +26,7 @@ export const StyledContainer = styled.section`
 
   .bio {
     padding: 20px;
-    width: 400px;
+    margin-right: 20px;
 
     font-family: monospace;
     font-size: 15px;
@@ -30,6 +36,7 @@ export const StyledContainer = styled.section`
   .typing {
     font-size: 20px;
     padding-left: 15px;
+    margin-right: 20px;
     font-family: monospace;
     width: 26ch;
 
@@ -55,6 +62,7 @@ export const StyledContainer = styled.section`
 export const StyledImg = styled.img`
   width: 400px;
   height: 400px;
+  margin-top: 20px;
   border-radius: 1000px;
   -webkit-box-shadow: 0px 0px 63px -7px rgba(211, 24, 240, 1);
   -moz-box-shadow: 0px 0px 63px -7px rgba(211, 24, 240, 1);

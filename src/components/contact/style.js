@@ -8,7 +8,6 @@ export const StyledContainer = styled.header`
 
   padding-bottom: 40px;
   padding-top: 40px;
-  width: 70%;
 
     p{
       font-size: 15px;
@@ -16,6 +15,15 @@ export const StyledContainer = styled.header`
       font-weight: 700;
     }
 
+    @media (max-width: 880px) {
+    flex-direction:column-reverse ;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    
+  }
 
 `
 
