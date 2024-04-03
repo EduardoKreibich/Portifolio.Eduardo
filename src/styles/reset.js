@@ -9,12 +9,6 @@ export const Reset = createGlobalStyle`
         font-family: var(--Font-Primary);
     
     }
-
-    body{
-        width: 100%;
-        background: rgb(255,255,255);
-        background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(198,200,201,1) 47%, rgba(255,255,255,1) 100%);
-    }
     
     #root{
         width: 100%;
@@ -22,6 +16,7 @@ export const Reset = createGlobalStyle`
         display: flex;
         flex-direction: column;
         align-items: center;
+        background-color: var(--Color-Grey-4);
     }
 
     button{

@@ -22,15 +22,15 @@ export const StyledButtonPrimary = styled.a`
 
     background: white;
     border: 1.2182px solid var(--Color-Grey-1);
-    border-radius: 4.06066px;
+    border-radius: 100px;
     color:black;
 
     &:hover {
         color: black;
         transition: 1000ms;
-        border: 1px solid var(--Color-Focus);
-        -webkit-box-shadow: 3px 3px 21px 17px rgba(158,200,242,1);
-        -moz-box-shadow: 3px 3px 21px 17px rgba(158,200,242,1);
-        box-shadow: 3px 3px 21px 17px rgba(158,200,242,1);
+        border: 1px solid transparent;
+        -webkit-box-shadow: var(--Webkit-Box-Shadow);
+        -moz-box-shadow: var(--Woz-Box-Shadow);
+        box-shadow: var(--Box-Shadow);
   }
 `

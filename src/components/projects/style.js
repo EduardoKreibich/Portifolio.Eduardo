@@ -41,6 +41,8 @@ export const StyledContainer = styled.section`
     .iconsProject{
         display: flex;
         align-items: center;
+
+        
         
     }
 `
@@ -48,4 +50,9 @@ export const StyledContainer = styled.section`
 export const StyledButtonGithub = styled.img`
     width: 30px;
     margin-left: 10px;
+
+    &:hover {
+        scale:1.2;
+        transition: all.5s;
+  }
 `

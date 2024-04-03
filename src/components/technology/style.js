@@ -4,7 +4,7 @@ import styled from "styled-components";
 export const StyledContainer = styled.section`
     display: flex;
     flex-direction: row;
-    justify-content:space-around;
+    justify-content:start;
     flex-wrap: wrap;
     
     width: 100%;
@@ -14,10 +14,11 @@ export const StyledContainer = styled.section`
 `
 
 export const StyledTec = styled.img`
-    width: 50px;
+    width: 40px;
     margin: 15px;
 
     &:hover{
-        border: 1px solid transparent;
+        scale: 1.2;
+        transition: all.5s;
     }
 `

@@ -6,10 +6,10 @@ import { Project } from "../../components/projects"
 import { Technology } from "../../components/technology"
 
 
-export const Portifolio = () => {
+export const Portifolio = ({setTheme}) => {
     return(
         <StyledContainer>
-            <Contact/>
+            <Contact setTheme={setTheme}/>
             <Profile/>
             <Technology/>
             <Project/>
