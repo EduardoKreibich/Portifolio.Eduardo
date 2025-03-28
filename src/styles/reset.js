@@ -11,12 +11,12 @@ export const Reset = createGlobalStyle`
     }
 
     body{
-        height: 100vh;
+        /* height: 100vh;
+        width: 100%; */
+
     }
     
     #root{
-        width: 100%;
-        height: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;

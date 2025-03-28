@@ -5,8 +5,9 @@ export const StyledContainer = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: var(--Color-Grey-4);
+  background-color: transparent;
   color: var(--Color-Grey-0);
+  gap: 30px;
 
 
   width: 70%;

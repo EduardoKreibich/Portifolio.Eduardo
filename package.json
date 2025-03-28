@@ -1,6 +1,6 @@
 {
   "name": "portifolio",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -10,6 +10,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@tsparticles/engine": "^3.8.1",
+    "@tsparticles/react": "^3.0.0",
+    "@tsparticles/slim": "^3.8.1",
     "axios": "^1.6.2",
     "create-vite": "^5.0.0",
     "react": "^18.2.0",

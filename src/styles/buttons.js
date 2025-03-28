@@ -7,6 +7,7 @@ export const StyledButtonPrimary = styled.a`
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    text-align: center;
 
     font-size:16px;
     font-weight: 600;
@@ -15,22 +16,23 @@ export const StyledButtonPrimary = styled.a`
 
     padding: 0px 22px;
     width: max-content;
-    height: 46px;
+    height: 26px;
 
     text-decoration: none;
 
 
-    background: white;
-    border: 1.2182px solid var(--Color-Grey-1);
+    background: transparent;
+    border: 1.2182px solid transparent;
     border-radius: 100px;
-    color:black;
+    color:rgba(211,24,240,1);
 
     &:hover {
-        color: black;
+        color: rgba(211,24,240,1);
         transition: 1000ms;
         border: 1px solid transparent;
         -webkit-box-shadow: var(--Webkit-Box-Shadow);
         -moz-box-shadow: var(--Woz-Box-Shadow);
         box-shadow: var(--Box-Shadow);
+        scale:1.03;
   }
 `

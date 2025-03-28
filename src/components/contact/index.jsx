@@ -15,8 +15,8 @@ export const Contact = ({setTheme}) => {
     <>
       <StyledContainer className="header">
         <div>
-          <StyledSvg src={dark} onClick={()=>setTheme(true)}/>
-          <StyledSvg src={sun} onClick={()=>setTheme(false)}/>
+          <StyledSvg src={sun} onClick={()=>setTheme(true)}/>
+          <StyledSvg src={dark} onClick={()=>setTheme(false)}/>
         </div>
         <p>email: kreibicheduardo@gmail.com</p>
         <div>
