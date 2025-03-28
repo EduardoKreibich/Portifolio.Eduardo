@@ -28,7 +28,6 @@ export const StyledContainer = styled.section`
         width: 415px;
         height: max-content;
         flex-direction: column;
-        align-items: center;
         padding: 30px;
 
         p{
