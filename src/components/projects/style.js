@@ -18,7 +18,6 @@ export const StyledContainer = styled.section`
     .links{
         display: flex;
         flex-direction: row;
-        align-items: center;
         justify-content: center;
         flex-wrap: wrap;
     }
@@ -28,6 +27,7 @@ export const StyledContainer = styled.section`
         width: 415px;
         height: max-content;
         flex-direction: column;
+        align-items: center;
         padding: 30px;
 
         p{
